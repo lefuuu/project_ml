@@ -14,8 +14,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder
 from sklearn.model_selection import train_test_split
 
-train = pd.read_csv("ml_project/house-prices-advanced-regression-techniques/train.csv")
-test = pd.read_csv("/Users/le_fuu/Github_local/Phase_1/ml_project/house-prices-advanced-regression-techniques/test.csv")
+train = pd.read_csv("/Users/le_fuu/Github_local/Phase_1/project_ml/train.csv")
+test = pd.read_csv("/Users/le_fuu/Github_local/Phase_1/project_ml/test.csv")
 
 # 50% и больше информации  отсутствует 
 train.drop(['Id', 'LotFrontage', 'MasVnrType', 'FireplaceQu', 'GarageType', 'GarageYrBlt',
