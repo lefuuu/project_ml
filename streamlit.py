@@ -1,16 +1,8 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import KFold, cross_val_score
 from sklearn.preprocessing import StandardScaler
-from sklearn.impute import SimpleImputer
-from sklearn.ensemble import StackingRegressor
-from sklearn.linear_model import Ridge
-from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
-from catboost import CatBoostRegressor
-from sklearn.metrics import mean_squared_error
 import streamlit as st
-from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder
 from sklearn.model_selection import train_test_split
 

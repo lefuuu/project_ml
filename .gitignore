@@ -161,3 +161,4 @@ cython_debug/
 house-prices-advanced-regression-techniques/pipeline_model.pkl
 .DS_Store
 house-prices-advanced-regression-techniques/model.ipynb
+result_predict.csv
